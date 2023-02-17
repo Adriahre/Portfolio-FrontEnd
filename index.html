@@ -1,47 +1,81 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Portfolio</title>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="styles.css">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="dist/css/bootstrap.css" rel="stylesheet" type="text/css">
+	<link href="styles.css" rel="stylesheet" type="text/css">
+	<title>Mi Portfolio Web</title>
 </head>
 <body>
 	<header>
-		<h6>Argentina Programa</h6>
-		<img src="Multimedia/banner.jpg">
-		<nav>
-			<ul>
-				<li><a href="">Login</a></li>
-				<li><a href="">Logout</a></li>
-			</ul>
-		</nav>
+		<nav class="navbar navbar-expand-lg bg-body-tertiary navbar-light bg-light">
+			<div class="container-fluid">
+				<img src="Multimedia/arg-programa.png" alt="Logo" width="100" height="auto" class="d-inline-block align-text-top">
+			  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+				<ul class="navbar-nav ms-auto">
+				  <li class="nav-item">
+					<a class="nav-link active" aria-current="page" href="#">Inicio</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="#">Login</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="#">Logout</a>
+				  </li>
+				  <li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+					  Secciones
+					</a>
+					<ul class="dropdown-menu">
+					  <li><a class="dropdown-item" href="#">Acerca de</a></li>
+					  <li><a class="dropdown-item" href="#">Experiencia</a></li>
+					  <li><a class="dropdown-item" href="#">Educación</a></li>
+					  <li><a class="dropdown-item" href="#">Proyectos</a></li>
+					</ul>
+				  </li>
+				</ul>
+			  </div>
+			</div>
+		  </nav>
 	</header>
-	<section>
-		<aside>
-			<ul>
-				<li><a href="">Acerca de</a></li>
-				<li><a href="">Experiencia</a></li>
-				<li><a href="">Educación</a></li>
-				<li><a href="">Proyectos</a></li>
-			</ul>
-	    </aside>
-		<article>
-			<h3>Acerca de</h3>
-			<p>Información sobre los conocimientos (Resumido). Nombre. Título</p>
-		</article>
-		<article>
-			<h3>Experiencia</h3>
-			<p>Incluir puesto, periodo, logo de la empresa (en caso de tenerlo) y una breve descripción de las actividades realizadas en el puesto.</p>
-		</article>
-		<article>
-			<h3>Educación</h3>
-			<p>Información de la formación académica, certificaciones, cursos. Información del instituto, logo, nombre, carrera o título, período o año.</p>
-		</article>
-		<article>
-			<h3>Proyectos</h3>
-			<p>Cada proyecto debe contener el nombre, fecha de realización, descripción del proyecto y/o un link.</p>
-		</article>
-	</section>
+	<div><img src="Multimedia/banner3.jpg" class="d-block w-100" alt="Banner"></div>
+	<div class="container">
+		<section>
+		 <main role="main">
+		   <article>
+			 <h2>Acerca de</h2>
+			 <p>Información sobre los conocimientos (Resumido). Nombre. Título</p>
+		   </article>
+		   <article>
+			 <h2>Experiencia</h2>
+			 <p>Incluir puesto, periodo, logo de la empresa (en caso de tenerlo) y una breve descripción de las actividades realizadas en el puesto.</p>
+		   </article>
+		   <article>
+			 <h2>Educación</h2>
+			 <p>Información de la formación académica, certificaciones, cursos. Información del instituto, logo, nombre, carrera o título, período o año.</p>
+		   </article>
+		   <article>
+			 <h2>Proyectos</h2>
+			 <p>Cada proyecto debe contener el nombre, fecha de realización, descripción del proyecto y/o un link.</p>
+		   </article>
+		 </main>
+		</section>
+	</div>
+	<aside>
+        <div><p>Contacto: adrianaavilalezcano@gmail.com</p></div>
+        <div><h3>Redes sociales</h3>
+          <ul>
+             <li><a href="www.instagram.com">Instagram</a></li>
+             <li><a href="www.faceboock.com">Faceboock</a></li>
+             <li><a href="www.whatsap">WhatsApp</a></li>
+          </ul>
+        </div>
+    </aside>
+    <footer>
+		<h6>Hi</h6>
+    </footer>
+      <script src="dist/js/bootstrap.bundle.js"></script>
 </body>
 </html>
